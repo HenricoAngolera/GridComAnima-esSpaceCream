@@ -31,7 +31,7 @@ header {
 header img {
   margin-block: 3.2rem;
 
-  animation: downtop 1s;
+  animation: downToTop 1s;
 }
 
 header h1 {
@@ -45,7 +45,7 @@ header h1 {
 
   margin-top: -2rem;
 
-  animation: leftright 900ms;
+  animation: leftToRight 900ms;
 }
 
 .wrapper {
@@ -75,7 +75,7 @@ main .grid {
 .card {
   position: relative;
 
-  animation: downtop 700ms ease;
+  animation: downToTop 700ms ease;
 }
 
 .card h2 {
@@ -92,14 +92,14 @@ main .grid {
   background-color: var(--strawberry-ice-cream-color);
   text-transform: uppercase;
 
-  animation: topdown 1.5s ease 100ms;
+  animation: topToDown 1.5s ease 100ms;
 }
 
 .none {
   display: none;
 }
 
-@keyframes topdown {
+@keyframes topToDown {
   0% {
     opacity: 0;
     transform: translateY(-15px);
@@ -111,7 +111,7 @@ main .grid {
   }
 }
 
-@keyframes downtop {
+@keyframes downToTop {
   0% {
     opacity: 0;
     transform: translateY(15px);
@@ -123,7 +123,7 @@ main .grid {
   }
 }
 
-@keyframes leftright {
+@keyframes leftToRight {
   0% {
     transform: translateX(20px);
   }
